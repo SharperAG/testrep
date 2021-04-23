@@ -1,0 +1,245 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(1vw * 0.6rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .navbar__brand-content {
+  background-color: #4a6bff;
+  padding: 0.2rem 1rem;
+  border-radius: 20px;
+}
+
+.navbar .navbar__brand-content .navbar-brand__phone {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 1.1rem;
+}
+
+.card-body {
+  height: 100%;
+}
+
+.header {
+  height: 500px;
+  width: 100%;
+  background-image: url("../img/bg-svg.svg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: bottom left;
+  z-index: 1;
+}
+
+.header .header__content {
+  padding-top: 3rem;
+}
+
+.header .header__content .header__text {
+  color: #ffffff;
+  text-shadow: 2px -2px 5px #fa004b;
+}
+
+.header .header__content .header__text .header__slogan {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.header .header__content .header__img .header__image-work {
+  width: 100%;
+  height: 300px;
+  border-radius: 0 40px 0 40px;
+}
+
+.main .about {
+  padding: 5rem 0;
+}
+
+.main .about .about__text .about__h1 {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.main .about .about__text .about__h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  background-color: #e0e3f6;
+}
+
+.main .about .about__img .about__img-work {
+  width: 100%;
+  height: 500px;
+  border-radius: 40px 0 40px 0;
+}
+
+@media (max-width: 760px) {
+  .main .about__text {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+            order: 1;
+  }
+  .main .about__img {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+            order: 2;
+  }
+}
+
+.main .services .card {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .services .card:hover {
+  background-color: #b8d1ff;
+  cursor: pointer;
+}
+
+.main .services .services__header {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.main .services .services__header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  background-color: #e0e3f6;
+}
+
+.main .services .services__header--option {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  color: #704409;
+}
+
+.main .services .services__header--option::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  z-index: -1;
+  background-color: #8493f5;
+}
+
+.main .price .price__h1 {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.main .price .price__h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  background-color: #e0e3f6;
+}
+
+.main .sign-up .sign-up__title {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.main .sign-up .sign-up__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  background-color: #e0e3f6;
+}
+
+.main .sign-up .sign-up__content {
+  margin: 1rem 0;
+  text-align: left;
+  padding: 2rem;
+  border: 0.1px solid gray;
+  border-radius: 20px;
+}
+
+.main .contact .contact__h1 {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.main .contact .contact__h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  background-color: #e0e3f6;
+}
+
+.main .contact .contact__social .social {
+  opacity: 0.7;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .contact .contact__social .social:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.main .contact .contact__map-title {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.main .contact .contact__map-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  z-index: -1;
+  background-color: #e0e3f6;
+}
+
+.footer {
+  height: 70px;
+  width: 100%;
+  background-color: #97bbff;
+}
+/*# sourceMappingURL=style.css.map */
